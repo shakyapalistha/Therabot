@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>THERABOT</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <div class="ai-avatar">
+                <i class="fa-solid fa-robot"></i>
+            </div>
+            <div class="header-info">
+                <h1>THERABOT</h1>
+                <div class="online-status">Online</div>
+            </div> 
+        </div>
+        <button class="more-btn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </button>
+    </div>
+    <div class="chat-container" id="chatContainer">
+        <div class="message ai-message">
+           <div class="message-avatar ai-message-avatar">
+             <i class="fa-solid fa-robot"></i>
+           </div> 
+           <div class="message-bubble">
+              Hello! I'm your AI assistant.How can I help you today?
+           </div>
+        </div>
+    </div>
+
+    <div class="input-container">
+        <div class="input-wrapper">
+            <textarea class="message-input"
+            id="messageInput"
+            placeholder="Type your message here..."
+            rows="1"
+            ></textarea>
+        </div>
+        <button class="send-button" id="sendButton">
+            <i class="fa-solid fa-paper-plane"></i>
+        </button>
+    </div>
+
+   <script src="script.js"></script>
+ </body>
+</html>
