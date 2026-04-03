@@ -208,6 +208,8 @@ __marimo__/
 
 # Chroma DB
 chroma_db/
+*.bin
+*.pickle
 *.sqlite3
 *.parquet
 index/
