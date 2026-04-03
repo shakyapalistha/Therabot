@@ -1,6 +1,1 @@
-nklsng;aorngvjkdnvaslkjvn# Therabot
-# Therabotaa sajs djsa dsad
-
-asd sa'dsa
-dsa dsa
-da
+#Therabot
